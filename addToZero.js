@@ -28,7 +28,14 @@ if (function twoSum(nums, target_num) {
         console.log('false')
     }
   
-    /*
+//console.log(twoSum([28, 43, -12, 30, 4, 0, 12],0));//
+//to prove this code works & show the pair//
+//remove the if statement//
+
+
+
+
+ /*
     Different methods I saw used to find the pairs:
 
     Method 2: Brute Force
