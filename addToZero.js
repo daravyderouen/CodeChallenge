@@ -32,9 +32,6 @@ if (function twoSum(nums, target_num) {
 //to prove this code works & show the pair//
 //remove the if statement//
 
-
-
-
  /*
     Different methods I saw used to find the pairs:
 
@@ -67,7 +64,6 @@ let array = [28, 43, -12, 30, 4, 0, 12]
 let sum = 0
 bruteForceTwoSum(array, sum)
 
-
 Method 3: Hash Method
 
 let hashTwoSum = (array, sum) => {
@@ -88,8 +84,6 @@ let hashTwoSum = (array, sum) => {
 let array = [28, 43, -12, 30, 4, 0, 12]
 
 hashTwoSum(array, 0)
-
-
 
     */
 
