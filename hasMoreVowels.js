@@ -1,18 +1,21 @@
 
 
 const hasMoreVowewls=(word)=>{
+    let vowelscount = 0
     let vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E','I','O','U'];
-    for(let i = 0; i <vowels.length;){
-    if(word === vowels[i]){
-        vowels +=2;
+    for(let char of word){
+    if(vowels.includes(char)){
+        vowels+=1;
+        return true
+    } else {
+        
     }
-        return true;
-    
-    }
-    return !!false;
+    }    
+    return false
 };
+
     
 
 
-//console.log(hasMoreVowewls('bada'));
+console.log(hasMoreVowewls('bada'));
 console.log(hasMoreVowewls('bd'));
