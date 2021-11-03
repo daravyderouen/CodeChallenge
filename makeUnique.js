@@ -1,7 +1,7 @@
 // Write your solution below:
 //write a function to remove all duplicate letters from string(slice)
 //toLowercase is used
-//trim() is used
+//remove whitespace
 
 
 let myString = "Daravy Inthavongsy DeRouen";
