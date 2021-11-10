@@ -7,4 +7,4 @@ function makePhoneNumber (arr) {
 
 let phoneNumber1 = [1,2,3,4,5,6,5,9,1,2]
 
-console.log(makePhoneNumber(phoneNumber1))
+console.log(makePhoneNumber(phoneNumber1))//prints (123) 456-5912
