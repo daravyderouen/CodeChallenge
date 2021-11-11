@@ -8,4 +8,4 @@ const nbYear = (p0, p100, aug, p) => {
 }
 
 
-console.log(nbYear(1500, 2.5, 50, 2000))
+console.log(nbYear(1500, 5, 100, 5000))
