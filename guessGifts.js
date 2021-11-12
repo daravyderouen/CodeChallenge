@@ -9,13 +9,13 @@ function guessGifts(wishlist, presents) {
   }
   
   
-  var wishlist = [
+  const wishlist = [
       {name: "diamond ring", size: "small", clatters: "no", weight: "light"},
       {name: "Boob Job", size: "medium", clatters: "a bit", weight: "medium"},
       {name: "laptop", size: "medium", clatters: "a bit", weight: "medium"}
   ];
   
-  var presents = [
+  const presents = [
       {size: "small", clatters: "no", weight: "medium"},
       {size: "medium", clatters: "a bit", weight: "medium"}
   ];
